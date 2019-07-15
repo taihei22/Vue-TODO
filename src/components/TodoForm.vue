@@ -4,7 +4,7 @@
         <router-link to="/">
             <v-icon>arrow_back</v-icon>
         </router-link>
-        <v-toolbar-title class="white--text">Todo APP</v-toolbar-title>
+        <v-toolbar-title class="white--text">Todo ADD</v-toolbar-title>
     </v-toolbar>
     <v-text-field v-model="newTodo" placeholder=" Input here ..."></v-text-field>
     <v-btn dark color="indigo" v-on:click="addTodo()" class="white--text">Add</v-btn>
