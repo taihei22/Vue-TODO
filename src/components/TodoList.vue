@@ -9,7 +9,7 @@
             <!-- https://qiita.com/ysKuga/items/fa2ba12b10bade86da36 -->
             <v-list-tile v-bind:key="`first-${i}`">
                 <v-list-tile-content>
-                    {{ todo }}
+                （なまえ）: {{ todo.name }}, （しょうさい）: {{ todo.detail }}
                 </v-list-tile-content>
                 <v-list-tile-action>
                     <v-btn id="deleteCircleBtn" flat icon v-on:click="deleteTodo(i)">Delete</v-btn>
